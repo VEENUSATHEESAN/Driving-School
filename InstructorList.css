@@ -1,0 +1,50 @@
+/* InstructorList.css */
+
+.instructor-list-container {
+    margin-top: 10px;
+    margin-left: 50vh;
+  }
+  
+  .instructor-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto;
+
+  }
+  
+  .instructor-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .instructor-list th,
+  .instructor-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .instructor-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .instructor-list th:first-child,
+  .instructor-list td:first-child {
+    min-width: 50px;
+  }
+  
+  .instructor-list th:nth-child(2),
+  .instructor-list td:nth-child(2) {
+    min-width: 150px;
+  }
+  
+  .instructor-list th:nth-child(4),
+  .instructor-list td:nth-child(4) {
+    min-width: 200px;
+  }
+  
+  .instructor-list th:last-child,
+  .instructor-list td:last-child {
+    min-width: 250px;
+  }
+  

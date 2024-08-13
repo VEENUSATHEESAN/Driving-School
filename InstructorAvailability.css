@@ -1,0 +1,54 @@
+.instructor-availability {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .instructor-availability h2 {
+    margin-top: 0;
+  }
+  
+  .instructor-availability form div {
+    margin-bottom: 10px;
+  }
+  
+  .instructor-availability form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .instructor-availability form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .instructor-availability form button {
+    padding: 10px 20px;
+    background-color: #3e8e41;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .instructor-availability form button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .instructor-availability table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .instructor-availability table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .instructor-availability th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  

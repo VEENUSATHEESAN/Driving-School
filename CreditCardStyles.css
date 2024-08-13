@@ -1,0 +1,52 @@
+.rccs__card {
+    width: 290px; /* $rccs-size */
+    aspect-ratio: 1.5858; /* $rccs-card-ratio */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* $rccs-shadow */
+    transition: all 0.5s ease-out; /* $rccs-background-transition */
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    animation: rccs__flip 1s ease; /* Animation applied */
+    transform-style: preserve-3d;
+}
+
+.rccs__name {
+    font-size: 17px; /* $rccs-name-font-size */
+    font-family: Consolas, Courier, monospace; /* $rccs-name-font-family */
+    color: #333; /* default text color */
+    font-weight: bold;
+}
+
+.rccs__number {
+    font-size: 17px; /* $rccs-number-font-size */
+    font-family: Consolas, Courier, monospace; /* $rccs-number-font-family */
+    color: #333; /* default text color */
+}
+
+.rccs__valid span {
+    font-size: 10px; /* $rccs-valid-font-size */
+}
+
+.rccs__expiry {
+    font-size: 16px; /* $rccs-expiry-font-size */
+    font-family: Consolas, Courier, monospace; /* $rccs-expiry-font-family */
+    color: #777; /* default color for expiry and CVC */
+}
+
+.rccs__cvc {
+    font-size: 14px; /* $rccs-cvc-font-size */
+    font-family: Consolas, Courier, monospace; /* $rccs-cvc-font-family */
+    color: #222; /* $rccs-cvc-color */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+@keyframes rccs__flip {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}

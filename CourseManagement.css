@@ -1,0 +1,15 @@
+/* CourseManagement.css */
+
+.course-management-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .logo-container{
+    margin: top 0px;
+  }
+  
+  /* Add any additional styling here */
+  

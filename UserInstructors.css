@@ -1,0 +1,35 @@
+/* UserInstructors.css */
+.user-instructors-container {
+    padding: 20px;
+  }
+  
+  .user-instructors-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .instructor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .instructor-table th, .instructor-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .instructor-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .instructor-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .instructor-table tr:hover {
+    background-color: #ddd;
+  }
+  

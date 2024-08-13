@@ -1,0 +1,75 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10vh; /* Full height of the viewport */
+  width: 210vh;
+  background-color: #f5f5f5; /* Optional background color */
+}
+
+.login-header {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+  width: 300px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+button[type="button"] {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="button"]:hover {
+  background-color:wheat;
+}

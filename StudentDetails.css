@@ -1,0 +1,40 @@
+.student-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 200vh;
+  }
+  
+  .student-details h2,
+  .student-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .student-details p {
+    margin: 10px 0;
+  }
+  
+  .student-details ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .student-details li {
+    padding: 5px 0;
+  }
+  
+  .student-details button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .student-details button:hover {
+    background-color: #3e8e41;
+  }
+  

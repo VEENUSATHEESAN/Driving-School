@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e9ecef;
+  color: #212529;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../IMAGES/Register.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.logo-container h1 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-top: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.register {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.register h2 {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  color: #495057;
+  font-weight: 600;
+}
+
+.form-group input {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #80bdff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+.register button {
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.register button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 12px rgba(0, 91, 187, 0.2);
+}
+
+@media (max-width: 576px) {
+  .register {
+    padding: 30px 20px;
+  }
+
+  .register h2 {
+    font-size: 22px;
+  }
+
+  .form-group input {
+    font-size: 14px;
+  }
+
+  .register button {
+    padding: 12px;
+    font-size: 15px;
+  }
+}

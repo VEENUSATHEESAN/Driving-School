@@ -1,0 +1,10 @@
+/* InstructorManagement.css */
+
+.instructor-management-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Add any additional styling here */
+  

@@ -1,0 +1,23 @@
+.rules {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rules h2 {
+  margin-top: 0;
+}
+
+.rules ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.rules ul li {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}

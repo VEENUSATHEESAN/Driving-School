@@ -1,0 +1,35 @@
+.schedule-management {
+    font-family: Arial, sans-serif;
+    width: 210vh;
+  }
+  
+  .schedule-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .schedule-nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .schedule-nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .schedule-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .schedule-nav a:hover {
+    color: #007bff;
+  }
+  
+  .schedule-main {
+    padding: 20px;
+  }
+  

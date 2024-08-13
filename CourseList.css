@@ -1,0 +1,46 @@
+/* CourseList.css */
+
+.course-list-container {
+    margin-top: 100px;
+  }
+  
+  .course-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  .course-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .course-list th,
+  .course-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .course-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .course-list th:first-child,
+  .course-list td:first-child {
+    min-width: 50px;
+  }
+  
+  .course-list th:nth-child(2),
+  .course-list td:nth-child(2) {
+    min-width: 200px;
+  }
+  
+  .course-list th:last-child,
+  .course-list td:last-child {
+    min-width: 100px;
+  }
+  
+  .view{
+    background-color: red;
+  }

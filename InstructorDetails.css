@@ -1,0 +1,20 @@
+/* InstructorDetails.css */
+
+.instructor-details-container {
+    margin-top: 20px;
+  }
+  
+  .instructor-details {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .instructor-details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .instructor-details div {
+    margin-bottom: 10px;
+  }
+  

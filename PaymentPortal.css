@@ -1,0 +1,53 @@
+.payment-portal-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.payment-portal-container h2 {
+  margin-top: 0;
+}
+
+.payment-portal-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-portal-container label {
+  margin: 10px 0 5px;
+}
+
+.payment-portal-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.payment-portal-container button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-portal-container button:hover {
+  background-color: #0056b3;
+}
+
+.payment-success {
+  text-align: center;
+}
+
+.payment-success h2 {
+  color: green;
+}
+
+.payment-success h3 {
+  margin-top: 20px;
+}

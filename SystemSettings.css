@@ -1,0 +1,23 @@
+.system-settings-container {
+    padding: 20px;
+  }
+  
+  .settings-item {
+    margin-bottom: 20px;
+  }
+  
+  .settings-item label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .settings-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .settings-item select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
