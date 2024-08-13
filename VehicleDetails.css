@@ -1,0 +1,27 @@
+/* VehicleDetails.css */
+
+.vehicle-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .vehicle-info {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .vehicle-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .maintenance-history {
+    margin-top: 20px;
+  }
+  
+  .maintenance-item {
+    margin-bottom: 10px;
+  }
+  
+  
