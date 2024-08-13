@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for react-big-calendar dark mode */
+.rbc-calendar.dark .rbc-toolbar,
+.rbc-calendar.dark .rbc-month-view,
+.rbc-calendar.dark .rbc-time-view {
+  @apply bg-gray-800 text-white;
+}
+
+.rbc-calendar.dark .rbc-event {
+  @apply bg-gray-700 text-white;
+}
+
+.rbc-calendar.dark .rbc-today {
+  @apply bg-gray-700;
+}
+
+.rbc-calendar.dark .rbc-month-row {
+  @apply border-gray-700;
+}
+
+.rbc-calendar.dark .rbc-off-range-bg {
+  @apply bg-gray-800 text-gray-400;
+}
+
+.rbc-calendar.dark .rbc-day-bg {
+  @apply bg-gray-800;
+}
+
+.rbc-calendar.dark .rbc-date-cell {
+  @apply text-white;
+}
+
+.rbc-calendar.dark .rbc-time-gutter,
+.rbc-calendar.dark .rbc-header,
+.rbc-calendar.dark .rbc-timeslot-group {
+  @apply bg-gray-800 text-white;
+}
+
+.rbc-calendar.dark .rbc-header {
+  @apply border-gray-700;
+}
+
+.rbc-calendar.dark .rbc-time-header-content {
+  @apply border-gray-700;
+}
+
+.rbc-calendar.dark .rbc-time-content {
+  @apply border-gray-700;
+}
+
